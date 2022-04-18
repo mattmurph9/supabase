@@ -78,12 +78,6 @@ The **`web side`** is built with React. Redwood's router makes it simple to map 
 Pages may contain a "Layout" component to wrap content. They also contain "Cells" and regular React components.
 Cells allow you to declaratively manage the lifecycle of a component that fetches and displays data.
 
-:::note
-For the sake of consistency with the other framework Quickstart examples, we'll build a RedwoodJS a little differently than normal.
-We **_won't use_** Prisma to connect to the Supabase Postgres database or [Prisma migrations](https://redwoodjs.com/docs/cli-commands#prisma-migrate) as one typically might in a Redwood app.
-Instead, we'll rely on the Supabase client to do some of the work on the **`web`** side and use the client again on the **`api`** side to do data fetching as well.
-:::
-
 ## Project set up
 
 Before we start building we're going to set up our Database and API. This is as simple as starting a new Project in Supabase
